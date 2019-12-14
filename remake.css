@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color: #e6e6e6;
+}
+.content{
+    float: right;
+    width: 80%;
+}
+.content .gallery .photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+.content .gallery .photo img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.S1{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.S2{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+@font-face{
+    font-family: ico;
+    src:"./Tài liệu/vendor/gallery_fonts/icomoon.ttf" ;
+}
+.ico-strategy:before{
+    content:"\e03b";
+}
+.ico-telescope::before{
+    content: "\e02a";
+}
+.ico-circle-compass:before{
+    content: "\e038";
+}
+.ico-tools-2::before{
+    content: "\e034";
+}
+ul.lst-services li.services{
+    width: 50%;
+    float: left;
+}
+ul.lst-services li.service .ico{
+    width: 30%;
+    float: left;
+}
+ul.lst-services li.service .item{
+    width: 70%;
+    float: left;
+}
+ul.services{
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+}
+[class^="icon"]{
+    font-family: ico!important;
+    font-size: 70px;
+}
