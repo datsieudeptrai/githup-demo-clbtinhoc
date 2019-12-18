@@ -1,0 +1,16 @@
+.lst-services{
+@font-face{
+    font-family: ico;
+    src:url("./Tài liệu/vendor/gallery_fonts/icomoon.ttf");
+}}
+.lst-services{
+@font-face
+{
+    font-family: Roboto;
+    src:url("./Tài liệu/fonts/Roboto-Regular.ttf");
+}}
+body{
+    margin: 0;
+    font-family: Roboto;
+    color:rgba(0, 0, 0, 0.5);
+}

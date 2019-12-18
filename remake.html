@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">   
         <link rel="stylesheet" type="text/css" href="remake.css">
+        <link rel="stylesheet" type="text/css" href="Roboto.css">
         <title>RemakeWeb</title>
     </head>
 <body>
@@ -13,19 +14,29 @@
         <div class="topmenu">
             <ul>
                 <li><img src = "./hinh1.png" alt="Logo"></li>
-                <li><a href ="#gallery">GALLERY</a></li>
-                <li><a href ="#services">SERVICES</a></li>
-                <li><a href ="#slogans">SLOGANS</a></li>
-                <li><a href ="#rating">RATING</a></li>
-                <li><a href ="#news">NEWS</a></li>
+                <li><a href ="#gallery">GALLERY</a>
+                    <div class="line"></div></li>
+                <li><a href ="#services">SERVICES</a>
+                    <div class="line"></div></li>
+                <li><a href ="#slogans">SLOGANS</a>
+                    <div class="line"></div></li>
+                <li><a href ="#rating">RATING</a>
+                    <div class="line"></div></li>
+                <li><a href ="#news">NEWS</a>
+                    <div class="line"></div></li>
             </ul>
         </div>
-        <div class="botmenu">
-            <footer><h1></h1></footer>
+        <div class="bot-menu">
+            <p></p>
+            <ul class="lst-ico">
+                <li><i>&copy;Blend.All Rights Reserved</i></li>
+                <li><i>Design by Datdeptrai.vipro</i></li>
+                <li><i>Demo images: pexels</i></li>
+            </ul>
         </div>
     </aside>
     <aside class="content">
-        <section class="gallery">
+        <section id="gallery" class="gallery">
             <div class="photo">
                 <img src="./hinh4.jpg" alt="gallery">
                 <img src="./hinh5.jpg" alt="gallery">
@@ -45,15 +56,15 @@
                 <img src="./hinh19.jpg" alt="gallery">
             </div>
         </section>
-        <section class="services">
-            <h1>SERVICES</h1>
+        <section id="services" class="services">
+            <h2 style="font-family: Arial, Helvetica, sans-serif;">SERVICES</h2>
             <ul class="lst-services">
                 <li class="S1">
                     <div class="item">
                         <i class="ico-strategy"></i>
                     </div>
-                    <div class="services">
-                        <h2>STRAGETY</h2>
+                    <div class="service">
+                        <h1>STRAGETY</h1>
                         <p>Far far away, behind the word mountains,
                                 far from the countries Vokalia and Consonantia, 
                                 there live the blind texts.
@@ -64,8 +75,8 @@
                     <div class="item">
                         <i class="ico-telescope"></i>
                     </div>
-                    <div class="services">
-                        <h2>EXPERTISE</h2>
+                    <div class="service">
+                        <h1>EXPERTISE</h1>
                     <p>Far far away, behind the word mountains,
                             far from the countries Vokalia and Consonantia, 
                             there live the blind texts.
@@ -76,8 +87,8 @@
                     <div class="item">
                         <i class="ico-circle-compass"></i>
                     </div>
-                    <div class="services">
-                    <h2>EXPLORE</h2>
+                    <div class="service">
+                    <h1>EXPLORE</h1>
                     <p>Far far away, behind the word mountains,
                             far from the countries Vokalia and Consonantia, 
                             there live the blind texts.
@@ -88,8 +99,8 @@
                     <div class="item">
                         <i class="ico-tools-2"></i>
                     </div>
-                    <div class="services">
-                        <h2>DIRECTION</h2>
+                    <div class="service">
+                        <h1>DIRECTION</h1>
                         <p>Far far away, behind the word mountains,
                                 far from the countries Vokalia and Consonantia, 
                                 there live the blind texts.
@@ -98,15 +109,33 @@
                     </p>
                 </li>
             </ul>
+            <!--  -->
         </section>
-        <section class="slogans">
+        <section id="slogans" class="slogans">
             <img src="./hinh3.jpg" alt="avatar">
             <h1>"Design must be functional and functionality must be translate into visual aesthetics, without any reliance on 
                 gimmicks that have to be explained. "</h1>
                 <p>-Ferdinand A Porsches</p>
         </section>
-        <section class="rating"></section>
-        <section class="news"></section>
+        <section id="rating" class="rating">
+            <div class="view">
+                <h1>67<br/>CLIENT</h1>
+            </div>
+            <div class="view">
+                <h1>130<br/>PHOTOS</h1>
+            </div>
+            <div class="view">
+                <h1>27232<br/>PIXELS</h1>
+            </div>
+        </section>
+        <section id="news" class="news">
+            <div class="new">
+                <h1>Get in touch</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Ipsum rem, esse ipsam cum corporis ad! Magni nesciunt provident,
+                    facilis inventore sunt vero doloremque, rerum corporis  quo cum, quae aliquid qui.</p>
+                    <a href="" class="button">Learn more</a>
+                </div>
+        </section>
     </aside>
 </section>
 </body>
